@@ -1,0 +1,33 @@
+.tag {
+  display: inline-block;
+  background-color: rgb(139, 184, 241);
+  color: var(--black-900);
+  font-size: 12px;
+  font-weight: 300;
+  padding: 6px 8px;
+  border: 1px solid transparent;
+  border-color: rgb(139, 184, 241);
+  margin: 2px 5px 2px 0;
+  line-height: 1;
+  white-space: nowrap;
+  border-radius: 6px;
+
+  &:active {
+    color: var(--blue-500);
+  }
+
+  &:hover {
+    color: var(--powder-800);
+    background-color: var(--powder-200);
+    border-color: transparent;
+  }
+}
+
+.multiplier {
+  color: var(--black-400);
+}
+
+.count {
+  color: var(--black-500);
+  font-size: 11px;
+}
