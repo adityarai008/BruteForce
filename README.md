@@ -7,7 +7,6 @@ BruteForce is an Open Source Discussion platform for Competitive Programmers.
 
 - ReactJs
 - NextJs
-- Storybook
 - PostCSS
 - NodeJs
 - Express
